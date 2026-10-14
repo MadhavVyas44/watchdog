@@ -39,7 +39,7 @@ Ingest, the delivery worker and the alert scheduler run in one Node.js process. 
 
 ### MVP
 
-- [ ] Create, update and disable endpoints through a JSON API
+- ✅ Create, update and disable endpoints through a JSON API
 - [ ] Signature verification over the raw body, with a constant-time comparison
 - [ ] Each Razorpay event stored once, however many times it is sent
 - [ ] Forwarding to the destination with the original body and signature headers
